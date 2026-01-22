@@ -1,66 +1,53 @@
 # Sports Popularity Across Cities: YouTube Data Analysis
 
 ## Topic and Search Parameters
-For this project, I explored the topic of **sports popularity in different cities** using YouTube video data. I chose three search terms:
+For this lab, I explored the topic of **sports popularity in different cities** using YouTube video data. I chose to look at **Seattle, Vancouver, and Los Angeles** as they are all major urban areas on the West Coast but differ in population size, media markets, and sports culture.
 
-- `"seattle sports"`  
-- `"vancouver sports"`  
-- `"los angeles sports"`  
+To collect the data, I chose three search terms:
 
-The goal was to compare which sports and teams are most discussed in each city. These searches were selected to focus on local sports coverage and to capture trends in what sports content people are consuming online.
+- `"Seattle Sports"`  
+- `"Vancouver Sports"`  
+- `"Los Angeles Sports"`  
+
+The goal was to compare which sports and teams are most discussed in each city. These searches were selected to focus on local sports coverage and to capture trends in what sports content people are consuming online. From the collected data, I generated word clouds to visualize which terms and topics appeared most frequently.
 
 ---
 
 ## Purpose of the Comparison
-I wanted to see how **sports culture differs across cities**. Seattle, Vancouver, and Los Angeles each have a variety of professional and amateur sports teams, and I was curious which teams, sports, or channels dominate YouTube content for each location. This comparison allows us to observe local popularity, trends, and unexpected patterns in sports coverage.
+I wanted to see how sports culture differs across cities by examining YouTube sports content related to Seattle, Vancouver, and Los Angeles. Each of these cities has a mix of professional and amateur sports teams, as well as strong local media coverage. By comparing them, I aimed to understand which teams, sports, or media channels dominate online sports discussions in different locations. This comparison helps reveal local popularity, media influence, and unexpected patterns in how sports content is produced and consumed.
 
 ---
 
 ## Word Cloud Comparison
 
 ### Seattle
-- The word cloud was dominated by the **names "Brock" and "Salk"**, due to the local Brock and Salk podcast channel having high coverage of Seattle sports.  
-- I expected words like **Seahawks**, **Mariners**, **game highlights**, and **press conferences** to be more prominent, but these appeared less frequently.  
-- Other common words included terms describing player actions, like **"dive"**.
+The Seattle word cloud was dominated by the names "Brock" and "Salk", which come from the popular Brock and Salk sports podcast. This indicates that podcast-based commentary plays a major role in Seattle sports content on YouTube. I initially expected team names such as the Seahawks or Mariners, along with game highlights or press conferences, to be more prominent. Instead, these appeared less frequently than expected. Other common terms focused on in-game actions, such as "dive", suggesting detailed analysis or commentary rather than straightforward highlights.
 
 ### Vancouver
-- The most common words were **"Vancouver"** and **"sport"**, which matched my search terms.  
-- I was pleased to see **Canucks** (hockey) and **Whitecaps** (soccer) appear, though **hockey was less prevalent than expected**.  
-- Terms like **"BC"** and **"Place"** referred to Vancouver's stadium, **BC Place**.  
-- The word **"soccer"** appeared prominently, which was somewhat unexpected given Vancouver's strong hockey culture.
+In Vancouver’s word cloud, the most common terms were "Vancouver" and "sport", which closely reflected the search keywords. I was pleased to see local teams like the Canucks (hockey) and Whitecaps (soccer) appear at noticeable sizes, showing they were well represented in the dataset. However, hockey was less prevalent than expected, especially given Vancouver’s strong association with the sport. Terms such as "BC" and "Place" referred to BC Place, one of the city’s main sports stadiums. Interestingly, "soccer" appeared prominently, which was somewhat unexpected and suggests strong or recent soccer-related coverage.
 
 ### Los Angeles
-- The word cloud prominently featured **LA sports teams**, including **Angels** and **Dodgers** (baseball), followed by **Clippers, Chargers, Lakers, and Kings**.  
-- This was closer to my expectations and showed a clear focus on local teams rather than general or unrelated sports content.  
-- Overall, Los Angeles produced the **cleanest and most relevant results**, with a strong representation of local sports teams.
+The Los Angeles word cloud most closely matched my expectations. It prominently featured major local sports teams, including the Angels and Dodgers, followed by the Clippers, Chargers, Lakers, and Kings. Unlike Seattle and Vancouver, team names clearly dominated the results, indicating a strong focus on professional sports franchises rather than general commentary or unrelated terms. Overall, Los Angeles produced the cleanest and most relevant word cloud, with a wide variety of teams accurately represented.
 
 ### Summary
-- The **best results** (most relevant word cloud) came from Los Angeles.  
-- The **least relevant results** came from Seattle, dominated by a single popular podcast rather than teams or sports events.  
-- Vancouver was intermediate, showing some local teams but also broader terms from the search.
+Overall, the best results came from Los Angeles, where the word cloud clearly reflected the city’s diverse professional sports landscape. Vancouver produced intermediate results, showing some local teams alongside broader or more general terms. Seattle produced the least relevant results, as a single popular podcast dominated the dataset rather than individual teams or sporting events.
 
 ---
 
 ## Possible Reasons for Observed Patterns
-- **Seattle:** High dominance of Brock and Salk podcast may be due to YouTube search algorithm prioritizing popular channels over specific teams.  
-- **Vancouver:** Soccer may appear more prominently because of recent coverage or video metadata including "soccer," and the search term `"sports"` is broad.  
-- **Los Angeles:** Large number of professional teams across multiple leagues provides a richer variety of content and higher visibility of team names.
-
----
-
-## Improvements for Future Research
-- Use **more specific search terms** like `"Seattle Seahawks highlights"` or `"Vancouver Canucks recap"` to reduce irrelevant results.  
-- Increase the number of videos collected per search to improve statistical significance.  
-- Consider filtering out podcast channels or repeated channels to focus solely on team coverage.  
-- Compare multiple types of content: highlights, fan reactions, and news channels separately.  
-- Incorporate **date/time filters** to analyze trends over specific periods (season, playoffs, etc.).
+Several factors may explain the patterns observed in the word clouds. In Seattle, the dominance of the Brock and Salk podcast may be influenced by YouTube’s search algorithm prioritizing popular channels over specific team-related content. 
+Vancouver’s results may reflect broader use of the term "sports", allowing soccer-related content to surface more frequently, possibly due to recent events or metadata tagging. 
+In Los Angeles, the large number of professional teams across multiple leagues likely contributes to higher visibility and repetition of team names in sports-related videos.
 
 ---
 
 ## Unexpected Findings
-- I was surprised by the dominance of a **single podcast** in Seattle, which skewed the word cloud.  
-- Vancouver’s word cloud emphasized **soccer over hockey**, which was unexpected given the local popularity of hockey.  
-- Los Angeles results were closest to expectations, with multiple teams represented accurately.
+One of the most surprising outcomes was the dominance of a single podcast in Seattle, which heavily skewed the word cloud away from teams and games. Vancouver’s emphasis on soccer over hockey also stood out, given the city’s strong hockey culture. In contrast, Los Angeles aligned closely with my expectations, with multiple teams clearly and accurately represented.
+
+---
+
+## Improvements for Future Research
+This research could be improved in several ways, such as sing more specific search terms, such as "Seattle Seahawks highlights" or "Vancouver Canucks recap", could reduce irrelevant results. Increasing the number of videos collected per search would improve the reliability of the data as well. Filtering out podcast channels or repeated channels could help focus the analysis on team-based coverage. Additionally, separating content types like highlights, fan reactions, and news, as well as applying date or season filters could provide deeper insight into trends over time.
 
 ---
 
