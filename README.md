@@ -66,10 +66,14 @@ I wanted to see how **sports culture differs across cities**. Seattle, Vancouver
 
 ## Assets
 
-### Word Clouds
-![Seattle Sports Word Cloud](img/LA_cloud.png)  
-![Vancouver Sports Word Cloud](/img/vancouver_sports_wordcloud.png)  
-![Los Angeles Sports Word Cloud](/img/la_sports_wordcloud.png)  
+### Seattle Word Cloud
+![Seattle Sports Word Cloud](img/seattle_cloud.png)  
+
+### Vancouver Word Cloud
+![Vancouver Sports Word Cloud](img/vancouver_cloud.png)  
+
+### Los Angeles Word Cloud
+![Los Angeles Sports Word Cloud](img/LA_cloud.png)  
 
 ### CSV Files
 You can download the collected data here:  
