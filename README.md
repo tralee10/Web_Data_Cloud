@@ -77,8 +77,8 @@ I wanted to see how **sports culture differs across cities**. Seattle, Vancouver
 
 ### CSV Files
 You can download the collected data here:  
-- [Seattle Sports CSV](./assets/seattle_sports.csv)  
-- [Vancouver Sports CSV](./assets/vancouver_sports.csv)  
+- [Seattle Sports CSV](assets/seattle_sports.csv)  
+- [Vancouver Sports CSV](assets/vancouver_sports.csv)  
 - [Los Angeles Sports CSV](assets/LA_sports.csv)
 
 ---
